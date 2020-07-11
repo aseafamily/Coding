@@ -3,6 +3,8 @@
 # Released under MIT license   https://opensource.org/licenses/mit-license.php
 # ------------
 
+# canged by andrew
+
 import pygame, sys, random
 
 skier_images = ["skier_down.png", "skier_right1.png",
