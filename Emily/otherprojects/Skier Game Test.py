@@ -1,3 +1,5 @@
+#Changed by Emily/Daisy :p
+
 import pygame, sys, random
 
 skier_images = ["skier_down.png", "skier_right1.png",
