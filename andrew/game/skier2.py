@@ -132,8 +132,8 @@ while running:
             pygame.time.delay(1000)
             skier.image = pygame.image.load("skier_down.png")
             ticker -= 5
-            screen_width += 10
-            screen_height += 10
+#            screen_width += 10
+#            screen_height += 10
 #            running = False
 #            print(name + "Score: " + str(points), 1, (0, 0, 0))
 #            skier.angle = 0
@@ -143,8 +143,8 @@ while running:
             points += 5
             ticker += 5
             hit[0].kill()
-            screen_width -= 10
-            screen_height -= 10
+#            screen_width -= 10
+#            screen_height -= 10
     obstacles.update()
     all_text = name + " Score: " + str(points) + " Speed: " + str(ticker)
     score_text = font.render(all_text, 1, (0, 0, 0))  # Displays score
@@ -158,9 +158,9 @@ while running:
     elif points <= -1000:
         print("You lost!!!!!!!!!!!")
         running = False
-    elif points == 30:
-         screen_width -= 10
-         screen_height -= 10
+#    elif points == 30:
+#         screen_width -= 10
+#         screen_height -= 10
 #        else:
 #        print("You win!!!")
 pygame.quit()
