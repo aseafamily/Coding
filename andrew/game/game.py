@@ -105,6 +105,13 @@ while when_you_die == 1:
         if choose1 == s:
             print("You stay put and the cover on you.")
             print("You hear lots of mobs.")
+            print("Lots of things that you hear you do not want, like a creeper, a spider, but you like killing zombies. ")
+            print("The creeper sound like it is all over the house.")
+            print("KABOOM!!!")
+            print("You died and can't go to your adventure.")
+        if choose1 == l:
+            print('''You of to the window and see that there are a lot of mobs.
+            ''')
     elif choise == 'l':
         print("You are Luke.")
         print("You are planning to make a trap in the desert temple near you.")
