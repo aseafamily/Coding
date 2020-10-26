@@ -4,11 +4,13 @@
 #    print("The number you entered was even.")
 #else:
 #    print("The number that you put in was odd.")
-#number = input("How many number do you want to add together?")
-#answer = 0
-for i in range (1, 11) :
-    if i % 2 == 0:
-        print(i)
-#    print(i)
-#    answer = answer + i
+number = int(input("What is the number that you want to add together from the start"))
+number1 = int(input("What is the number that you want to end with?"))
+answer = 0
+for i in range (number1, number + 1) :
+    thing = i + number + number1
+    if i + 2 == 0:
+        print(thing)
+    print(i)
+    answer = answer + i
 

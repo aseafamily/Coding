@@ -1,0 +1,22 @@
+ask user to pick dragon
+ask what powers and say the powers
+ask user the level 1 -10
+make them do it 3 times with the for i in range(0, 3)
+start the tortal:
+    How to hatch dragons
+    How to breed dragons
+    How to battle
+    and How to feed, place etc
+make a whille loop and make the exit by Esc, esc.
+make the whille loop ask them if they what to battle, hatch, breed, feed, place or other things
+Make it work.
+Done!!!!!!!!!!!!
+JK
+
+
+
+
+
+tortal
+whille loop
+Done
